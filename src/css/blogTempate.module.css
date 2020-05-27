@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem auto;
+  width: 70vw;
+}
+
+.image {
+  width: 500px;
+  height: 400px;
+}
+.title {
+  font-size: 1.9rem;
+}
