@@ -1,4 +1,7 @@
 .blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   padding: 2rem 0;
   margin: 2rem;
   width: 800px;
@@ -7,7 +10,6 @@
   border-color: var(--primaryColor);
 }
 .blo {
-  /* background-color: red; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,31 +23,27 @@
   align-content: center;
 }
 .title {
-  font-size: 2rem;
+  /* font-size: 2rem;
   text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: capitalize;
-  color: black;
+  color: black; */
 }
 .date {
-  font-size: 1rem;
+  /* font-size: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
+} */
 }
 .image {
   height: 100px;
   width: 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .list {
   list-style-type: none;
-}
-.link {
   text-decoration: none;
 }

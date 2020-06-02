@@ -7,13 +7,12 @@
 }
 .about-img {
   margin: 3rem 0;
+  position: relative;
 }
 .about-info {
   margin-top: 3rem;
 }
-.about-img {
-  position: relative;
-}
+
 .heading {
   margin-top: 3rem;
 }

@@ -19,3 +19,24 @@ collections:
       - { label: Title, name: title, widget: string }
       - { label: Image, name: image, widget: image }
       - { label: Body, name: body, widget: markdown }
+  - name: "home"
+    label: "Home"
+    folder: "src/components/Home"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - { label: Template key, name: tamplateKey, widget: hidden }
+      - { label: Title, name: title, widget: text }
+      - {
+          label: Mainpitch,
+          name: mainpitch,
+          widget: list,
+          fields:
+            [
+              { label: Description, name: description, widget: string },
+              { label: Title, name: title, widget: string },
+              { label: Img, name: img, widget: image },
+            ],
+        }
